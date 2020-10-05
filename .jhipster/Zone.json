@@ -1,0 +1,23 @@
+{
+  "name": "Zone",
+  "fields": [
+    {
+      "fieldName": "zoneName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201005111429",
+  "entityTableName": "zone",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "Validator",
+  "applications": "*",
+  "microserviceName": "Validator"
+}
