@@ -1,0 +1,23 @@
+{
+  "name": "Region",
+  "fields": [
+    {
+      "fieldName": "regionName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201005111329",
+  "entityTableName": "region",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "Validator",
+  "applications": "*",
+  "microserviceName": "Validator"
+}
